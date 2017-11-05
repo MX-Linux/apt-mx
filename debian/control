@@ -8,4 +8,4 @@ Homepage: http://antix.mepis.org
 
 Package: apt-mx
 Architecture: all
-Description: apt defaults for MX-15.
+Description: apt defaults for MX-Linux.
