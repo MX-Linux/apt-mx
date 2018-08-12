@@ -1,3 +1,9 @@
+apt-mx (0.1.9.3) mx; urgency=medium
+
+  * update localize-repo (thanks anticapitalista) 
+
+ -- dolphin oracle <dolphin@mx>  Sun, 12 Aug 2018 19:22:46 -0400
+
 apt-mx (0.1.9.2) mx; urgency=medium
 
   * updated localize-repo (thanks bitjam)
