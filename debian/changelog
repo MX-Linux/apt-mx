@@ -1,8 +1,14 @@
-apt-mx (0.1.9.3) mx; urgency=medium
+apt-mx (0.1.9.4) mx; urgency=medium
 
   * update localize-repo (thanks anticapitalista) 
 
- -- dolphin oracle <dolphin@mx>  Sun, 12 Aug 2018 19:22:46 -0400
+ -- dolphin oracle <dolphinoracle@gmail.com>  Sun, 12 Aug 2018 19:22:46 -0400
+ 
+apt-mx (0.1.9.3) mx; urgency=medium
+
+  * removed deb-multimedia from default list 
+
+ -- dolphin oracle <dolphin@littlebyte>  Wed, 07 Feb 2018 18:21:08 -0500
 
 apt-mx (0.1.9.2) mx; urgency=medium
 
