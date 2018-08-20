@@ -1,3 +1,9 @@
+apt-mx (0.1.9.5) mx; urgency=medium
+
+  * removed columbia mirror
+
+ -- dolphin oracle <dolphin@mx>  Sun, 19 Aug 2018 22:46:17 -0400
+
 apt-mx (0.1.9.4) mx; urgency=medium
 
   * update localize-repo (thanks anticapitalista) 
