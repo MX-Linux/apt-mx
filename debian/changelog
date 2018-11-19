@@ -1,3 +1,9 @@
+apt-mx (18.11.01) mx; urgency=medium
+
+  * added beijing and hong kong mirrors 
+
+ -- dolphin <dolphin@littlebyte>  Sun, 18 Nov 2018 19:34:33 -0500
+
 apt-mx (0.1.9.5) mx; urgency=medium
 
   * removed columbia mirror
