@@ -1,3 +1,10 @@
+apt-mx (18.12.02) mx; urgency=medium
+
+  * updated localize-repo
+  * added more mirrors 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Tue, 11 Dec 2018 19:21:06 -0500
+
 apt-mx (18.12.01) mx; urgency=medium
 
   * added postinst to move iso.mxrepo.com to la.mxrepo.com 
