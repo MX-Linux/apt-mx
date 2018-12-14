@@ -90,10 +90,10 @@ fr_AX_HOST=http://fr.mirror.mxlinux.de/packages/antix
 fr_MX_HOST=http://fr.mirror.mxlinux.de/packages/mx
 fr_LOCATION="France"
 
-gr_AX_HOST=http://mxlinux.mirrors.uk2.net/packages/antix
+gb_AX_HOST=http://mxlinux.mirrors.uk2.net/packages/antix
 #gr_MP_HOST=http://ftp.cc.uoc.gr/mirrors/linux/mx/mepiscr
-gr_MX_HOST=http://mxlinux.mirrors.uk2.net/packages/mx
-gr_LOCATION="United Kingdom"
+gb_MX_HOST=http://mxlinux.mirrors.uk2.net/packages/mx
+gb_LOCATION="United Kingdom"
 
 gr_AX_HOST=http://ftp.cc.uoc.gr/mirrors/linux/mx/antix
 #gr_MP_HOST=http://ftp.cc.uoc.gr/mirrors/linux/mx/mepiscr
@@ -139,6 +139,11 @@ my_AX_HOST=http://mirror.myren.net.my/mx-linux/antix
 #nl_MP_HOST=http://nl.mxrepo.com/mepiscr
 my_MX_HOST=http://mirror.myren.net.my/mx-linux/mx
 my_LOCATION="Maylasia"
+
+ny_AX_HOST=http://mirrors.rit.edu/mxlinux/mx-packages/antix
+#ny_MP_HOST=http://mirrors.rit.edu/mxlinux/mx-packages/mepiscr
+ny_MX_HOST=http://mirrors.rit.edu/mxlinux/mx-packages/mx
+ny_LOCATION="United States, Rochester NY"
 
 nz_AX_HOST=http://mx.debian.nz/antix
 #nz_MP_HOST=http://mx.debian.nz/mepiscr
@@ -190,10 +195,10 @@ vn_AX_HOST=https://mirror.freedif.org/MXLinux/repo/antix
 vn_MX_HOST=https://mirror.freedif.org/MXLinux/repo/mx
 vn_LOCATION="Vietnam"
 
-ZA_AX_HOST=https://ftp.saix.net/pub/linux/distributions/mxlinux/antix
+za_AX_HOST=https://ftp.saix.net/pub/linux/distributions/mxlinux/antix
 #tw_MP_HOST=http://ftp.yzu.edu.tw/Linux/mx-workspace/mepiscr
-ZA_MX_HOST=https://ftp.saix.net/pub/linux/distributions/mxlinux/mx
-ZA_LOCATION="South_Africa"
+za_MX_HOST=https://ftp.saix.net/pub/linux/distributions/mxlinux/mx
+za_LOCATION="South_Africa"
 
 ut_AX_HOST=http://repo.antixlinux.com
 #ut_MP_HOST=http://mxrepo.com/mepiscr
@@ -353,7 +358,7 @@ main() {
     [ -d "$SDIR" ] || fatal "'$SDIR' is not a directory"
 
     local file fcnt=0
-    for file in $(find $SDIR -maxdepth 1 -name "*.list"); do
+    for file in $(find $SDIR -maxdepth 1 ! -name devrepo.list -name "*.list"); do
 
         # Use diff to see if there would be any change to the file
         local diff=$(sed -r $SED_EXPR $file | diff -q $file -)
