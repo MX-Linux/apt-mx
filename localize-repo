@@ -125,9 +125,9 @@ kz_AX_HOST=https://mirror.ps.kz/mx/packages/antix
 kz_MX_HOST=https://mirror.ps.kz/mx/packages/mx
 kz_LOCATION="Kazakhstan"
 
-la_AX_HOST=http://iso.mxrepo.com/antix
-#la_MP_HOST=http://iso.mxrepo.com/mepiscr
-la_MX_HOST=http://iso.mxrepo.com/mx
+la_AX_HOST=http://la.mxrepo.com/antix
+#la_MP_HOST=http://la.mxrepo.com/mepiscr
+la_MX_HOST=http://la.mxrepo.com/mx
 la_LOCATION="Los Angeles, USA"
 
 nl_AX_HOST=http://nl.mxrepo.com/antix

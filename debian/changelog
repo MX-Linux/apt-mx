@@ -1,3 +1,9 @@
+apt-mx (18.12.04) mx; urgency=medium
+
+  * corrected iso.mxrepo to la.mxrepo 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 15 Dec 2018 19:06:29 -0500
+
 apt-mx (18.12.03) mx; urgency=medium
 
   * fixes for localize-repo (fehlix_ 
