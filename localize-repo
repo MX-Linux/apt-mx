@@ -85,9 +85,9 @@ es_AX_HOST=http://ftp.cica.es/mirrors/Linux/MX-Packages/antix
 es_MX_HOST=http://ftp.cica.es/mirrors/Linux/MX-Packages/mx
 es_LOCATION="Spain"
 
-fr_AX_HOST=http://fr.mirror.mxlinux.de/packages/antix
+fr_AX_HOST=http://mirror.ibcp.fr/pub/mxlinux/workspace/antix
 #fr_MP_HOST=http://fr.mirror.mxlinux.de/packages/mepiscr
-fr_MX_HOST=http://fr.mirror.mxlinux.de/packages/mx
+fr_MX_HOST=http://mirror.ibcp.fr/pub/mxlinux/workspace/mx
 fr_LOCATION="France"
 
 gb_AX_HOST=http://mxlinux.mirrors.uk2.net/packages/antix
