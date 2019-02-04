@@ -1,3 +1,10 @@
+apt-mx (19.02.01) mx; urgency=medium
+
+  * seperatre localize-repo from apt-mx 
+  * for buster
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 03 Feb 2019 20:33:23 -0500
+
 apt-mx (18.12.04) mx; urgency=medium
 
   * corrected iso.mxrepo to la.mxrepo 
