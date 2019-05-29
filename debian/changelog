@@ -1,9 +1,16 @@
+apt-mx (19.05.02) mx; urgency=medium
+
+  * buster updates 
+  * corrected typo in changlog
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Tue, 28 May 2019 21:20:09 -0400
+
 apt-mx (19.05.01) mx; urgency=medium
 
   * seperatre localize-repo from apt-mx 
   * for buster
 
- -- Dolphin Oracle <dolphinoracle@gmail.com>  Apr, 04 Feb 2019 21:18:23 -0500
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 04 Feb 2019 21:18:23 -0500
 
 apt-mx (18.12.04) mx; urgency=medium
 
