@@ -1,3 +1,9 @@
+apt-mx (19.04.01) mx; urgency=medium
+
+  * update localize-repo
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 04 Apr 2019 21:22:14 -0400
+
 apt-mx (18.12.04) mx; urgency=medium
 
   * corrected iso.mxrepo to la.mxrepo 
