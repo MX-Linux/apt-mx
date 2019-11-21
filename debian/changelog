@@ -1,3 +1,10 @@
+apt-mx (19.11.01) mx; urgency=medium
+
+  * new ahs repo
+  * adjust default antiX repo 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 20 Nov 2019 20:13:10 -0500
+
 apt-mx (19.05.02) mx; urgency=medium
 
   * buster updates 
