@@ -1,3 +1,0 @@
-# Use with Debian Stable/buster repositories.
-deb http://la.mxrepo.com/antix/buster buster main
-#deb-src http://la.mxrepo.com/antix/buster buster main
