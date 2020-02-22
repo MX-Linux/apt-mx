@@ -1,3 +1,9 @@
+apt-mx (20.02.02) mx; urgency=medium
+
+  * update repo labels 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 21 Feb 2020 20:27:25 -0500
+
 apt-mx (20.02.01) mx; urgency=medium
 
   * removed antix sources
